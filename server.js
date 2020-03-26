@@ -6,6 +6,7 @@ const bodyParser  = require('body-parser');
 const request = require('request');
 require('dotenv').config();
 const access_token = process.env.ACCESS_TOKEN;
+const mId = process.env.MERCHANT_ID;
 app.use(express.json());
 app.use(cors());
 app.use(bodyParser.json());
@@ -19,7 +20,6 @@ let headers = {
 app.get('/', (req, res) => res.send(`The Plant Store's SERVER!`))
 let lineItems;
 let orderId;
-let mId = 'S5SYG4KS612T1';
 
 // When user goes to the Menu page, get merchant's inventory.
 app.get('/inventory', (req, res) => {
