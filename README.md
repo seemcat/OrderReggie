@@ -1,5 +1,5 @@
 # Order Reggie
-An online plant store built with Clover E-Commerce API.
+An online ordering web app that's REGGIE to take your customer's order! Built with the Clover E-Commerce API.
 
 ## Getting Started
 1. Create a .env file to store your OAuth token: AUTH_TOKEN='PLACE YOUR AUTH TOKEN IN HERE'.
