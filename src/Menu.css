@@ -1,0 +1,65 @@
+.Menu {
+  font-family: 'Inter', sans-serif;
+}
+
+.Menu-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(30px + 2vmin);
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.Menu-list {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Menu-checkout {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Menu-option {
+  margin: 5px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+}
+
+.Errors {
+  padding: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+.Confirmation {
+  margin: 50px;
+  font-size: 50px;
+}
+
+.Checkout {
+  display: flex;
+  flex-direction: column;
+}
+
+.Shipping-list {
+  align-self: center;
+}
+
+.Menu-card {
+  margin: 10px;
+}
+
+.Menu-link {
+  color: #61dafb;
+}
